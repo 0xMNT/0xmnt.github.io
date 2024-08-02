@@ -107,3 +107,27 @@ ul li {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .left-column,
+  .right-column {
+    flex: none;
+    width: 50%;
+  }
+  .links {
+    gap: 20px;
+  }
+
+  .links a {
+    font-size: 1em;
+  }
+}
