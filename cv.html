@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damian Cielenga - CV</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="fade image-container">
+            <a href="index.html">
+                <img src="dogcoffee.jpg" alt="dog coffee" class="round-image">
+            </a>
+        </div>
+
+        <div class="container">
+            <div class="left">
+                <h1>Damian Cielenga</h1>
+                <ul>
+                    <li><strong><i class="fa fa-envelope"></i> Email:</strong> damian.cielenga@gmail.com</li>
+                    <li><strong> <i class="fab fa-linkedin"></i> LinkedIn:</strong> <a
+                            href="https://www.linkedin.com/in/damian-cielenga-a391a1300">linkedin.com/in/damian-cielenga-a391a1300</a>
+                    </li>
+                    <li><strong><i class="fab fa-xing"></i> XING:</strong> <a
+                            href="https://www.xing.com/profile/Damian_Cielenga/">xing.com/profile/damian_cielenga</a>
+                    </li>
+                    <li><strong><i class="fab fa-github"></i> GitHub:</strong> <a
+                            href="https://github.com/0xMNT">github.com/0xMNT</a></li>
+                    <li><strong>CV Online Version:</strong> <a href="https://0xmnt.github.io/cv/">0xMNT.github.io/cv</a>
+                    </li>
+                </ul>
+
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Languages:</strong> Python, Bash</li>
+                    <li><strong>Versioning Control Tools:</strong> Git (GitLab CI/CD, GitHub Actions)</li>
+                    <li><strong>Operating Systems:</strong> Microsoft, Linux/Unix, MacOS, Virtualization Technologies
+                    </li>
+                    <li><strong>Cloud Platforms:</strong> AWS, Hetzner</li>
+                    <li><strong>Infrastructure as Code:</strong> Terraform</li>
+                    <li><strong>Configuration Management:</strong> Ansible, GNU Stow</li>
+                    <li><strong>Containerization:</strong> Docker</li>
+                    <li><strong>Monitoring:</strong> Zabbix, Nagios</li>
+                    <li><strong>Database:</strong> MySQL, SQLite, Postgres</li>
+                    <li><strong>Collaboration Tools:</strong> Confluence, Jira, Wrike</li>
+                    <li><strong>Methodologies:</strong> Scrum, Kanban</li>
+                    <li><strong>Work Style:</strong> Proactive, Team-oriented</li>
+                </ul>
+
+                <h2>Setup</h2>
+                <ul>
+                    <li><strong>Editor:</strong> Neovim (LazyVim, LazyGit, LazyDocker, Mason, Tokyonight), VSCode </li>
+                    <li><strong>Terminal:</strong> WezTerm, Alacritty</li>
+                    <li><strong>Multiplexer:</strong> Tmux</li>
+                    <li><strong>Notetaking:</strong> Obisidan (Markdown Editor)</li>
+                </ul>
+
+                <h2>Additional Information</h2>
+                <p><strong>Languages:</strong> German (native), English (intermediate)</p>
+                <p><strong>Hobbies:</strong> Tech Blogs, Linux (i use arch btw), CLI, Ricing, Piano, Sports, Hiking,
+                    Coffee, Fantasy, Sci-Fi</p>
+            </div>
+
+            <div class="right">
+                <h2>Summary</h2>
+                <p>Experienced DevOps Engineer with over 4 years experience in managing infrastructure, deploying
+                    applications, and automating processes using tools like GitLab, GitHub, AWS, Terraform, Ansible.
+                    Proven ability to collaborate with development teams and system administrators to streamline
+                    workflows and improve deployment efficiency.</p>
+
+                <h2>Professional Experience</h2>
+                <h3>DevOps Engineer</h3>
+                <p><strong>Sonnen GmbH</strong> — July 2022 – Present</p>
+                <ul>
+                    <li>Implement CI/CD pipelines using GitLab/GitHub.</li>
+                    <li>Automate infrastructure provisioning with Terraform on AWS, improving consistency and
+                        reliability.</li>
+                    <li>Manage the update and upgrade process of over 200 servers with Ansible.</li>
+                    <li>Support various teams with Confluence wiki management and other collaborative tools.</li>
+                    <li>Manage Zabbix for monitoring all Linux systems in the organization.</li>
+                    <li>Work effectively in a team using Scrum and Kanban methodologies.</li>
+                </ul>
+
+                <h3>Junior DevOps Engineer</h3>
+                <p><strong>prodexa GmbH</strong> — Jan 2022 – July 2022</p>
+                <ul>
+                    <li>Focused on Backend infrastructure for a Product Information Management (PIM) system.</li>
+                    <li>Monitored systems using Nagios to ensure high availability and performance.</li>
+                    <li>Created Groovy scripts to enhance the functionality and automation of the PIM application.</li>
+                    <li>Collaborated with customers to gather requirements and provide technical support.</li>
+                </ul>
+
+                <h2 class="page-break-before">Education</h2>
+                <p><strong>Fachinformatiker für Anwendungsentwicklung</strong></p>
+                <p>prodexa, Dortmund — August 2019 – Jan 2022</p>
+
+                <h2>Projects</h2>
+                <h3>RSS Feed Checker and Telegram Notifier</h3>
+                <p><strong>Description:</strong> This script periodically checks a RSS feed for new entries and sends
+                    updates to a specified Telegram chat. It is designed to run as a cron job and uses asynchronous
+                    operations to efficiently handle network requests. The application runs in a docker container on a
+                    hetzner cloud server and will be updated and redeployed via a CI/CD pipeline in GitHub</p>
+                <p><strong>Technologies:</strong> Python, Docker, Git, Cloud</p>
+                <p><strong>Link:</strong> <a href="https://github.com/0xMNT/telegram-rss-feed-bot">
+                        github.com/0xMNT/telegram-rss-feed-bot</a></p>
+
+                <h3>HomeLab</h3>
+                <p><strong>Description:</strong> I have created a homelab with Proxmox, deploying and managing various
+                    tools such as Pi-hole, Zabbix, Nextcloud, and others to enhance my technical skills and
+                    understanding of server management and network security.</p>
+                <p><strong>Technologies:</strong> Proxmox, Zabbix, Nextcloud, IaC, Ansible</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
