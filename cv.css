@@ -1,0 +1,109 @@
+body {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #333;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px;
+}
+
+.left,
+.right {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+
+.right {
+  flex: 2;
+}
+
+.page-break-before {
+  page-break-before: auto;
+}
+
+.divider {
+  margin: 20px auto; /* Center the line with spacing above and below */
+  border: 0;
+  border-top: 1px solid #ccc; /* Light gray line */
+  width: 100%; /* Width of the line, adjust as needed */
+}
+
+.round-image:hover {
+  opacity: 0.8; /* Slightly fade the image on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; /* Increase margin */
+}
+
+.round-image {
+  width: 225px; /* Increase width */
+  height: 225px; /* Increase height */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.fade {
+  opacity: 0; /* Start invisible for fade-in effect */
+  animation: fadeIn 2s 0.1s forwards; /* Apply fade-in effect with delay */
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

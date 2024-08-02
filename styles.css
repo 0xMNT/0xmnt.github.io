@@ -1,0 +1,139 @@
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the start (top) */
+  height: 100vh;
+  font-size: 1.5em; /* Increase base font size */
+}
+
+h1 {
+  margin: 10px 0 15px;
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  margin: 0 0 30px; /* Increase margin */
+  font-size: 0.7em; /* Increasehfont size */
+  color: #9c9c9c;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px; /* Increase padding */
+  margin-top: 10vh; /* Push the container down */
+  width: 80%; /* Set container width to 80% of viewport width */
+  max-width: 800px; /* Maximum width of the container */
+}
+
+.round-image:hover {
+  opacity: 0.8; /* Slightly fade the image on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; /* Increase margin */
+}
+
+.round-image {
+  width: 225px; /* Increase width */
+  height: 225px; /* Increase height */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* Increase gap */
+  font-size: 0.8em;
+}
+
+.links a {
+  text-decoration: none;
+  color: #45474b;
+  font-size: 1.2em; /* Increase font size */
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #7776b3;
+  text-decoration: underline;
+}
+
+.links-project {
+  display: flex;
+  justify-content: left;
+}
+
+.links-project a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em; /* Increase font size */
+  transition: color 0.3s;
+}
+
+.links-project a:hover {
+  color: #9b86bd;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Space between icons */
+  margin: 40px 0 70px; /* Margin above social links */
+}
+
+.social-links a {
+  text-decoration: none;
+  color: black; /* Set icon color to black */
+  font-size: 1.5em; /* Decrease icon size */
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #9b86bd;
+  text-decoration: underline;
+}
+
+.page-content {
+  text-align: left; /* Align text to the left for this specific page */
+}
+
+.page-content p {
+  font-size: 0.8em; /* Increase base font size */
+}
+
+.page-content li {
+  color: #545454;
+  font-size: 1em; /* Increase base font size */
+  margin: 10px; /* Increase margin */
+}
+
+.divider {
+  margin: 20px auto; /* Center the line with spacing above and below */
+  border: 0;
+  border-top: 1px solid #ccc; /* Light gray line */
+  width: 100%; /* Width of the line, adjust as needed */
+}
+
+.fade {
+  opacity: 0; /* Start invisible for fade-in effect */
+  animation: fadeIn 2s 0.1s forwards; /* Apply fade-in effect with delay */
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
