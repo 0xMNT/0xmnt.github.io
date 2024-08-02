@@ -1,4 +1,4 @@
-![GitHub Pages](https://github.com/0xmnt/0xmnt.github.io/actions/workflows/pages-build-deployment/badge.svg)
+![GitHub Pages](https://github.com/0xMNT/0xmnt.github.io/actions/pages-build-deployment/badge.svg)
 
 
 Hello,
