@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: flex-start; /* Align items to the start (top) */
   height: 100vh;
-  font-size: 1.5em; /* Increase base font size */
+  font-size: 1.5em;
 }
 
 h1 {
@@ -17,34 +17,34 @@ h1 {
 }
 
 p {
-  margin: 0 0 30px; /* Increase margin */
-  font-size: 0.7em; /* Increasehfont size */
+  margin: 0 0 30px;
+  font-size: 0.7em;
   color: #9c9c9c;
 }
 
 .container {
   text-align: center;
   background: white;
-  padding: 30px; /* Increase padding */
-  margin-top: 10vh; /* Push the container down */
-  width: 80%; /* Set container width to 80% of viewport width */
-  max-width: 800px; /* Maximum width of the container */
+  padding: 30px; 
+  margin-top: 10vh;
+  width: 80%; 
+  max-width: 800px;
 }
 
 .round-image:hover {
-  opacity: 0.8; /* Slightly fade the image on hover */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  opacity: 0.8; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
 .image-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px; /* Increase margin */
+  margin-bottom: 30px;
 }
 
 .round-image {
-  width: 225px; /* Increase width */
-  height: 225px; /* Increase height */
+  width: 225px; 
+  height: 225px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -52,14 +52,14 @@ p {
 .links {
   display: flex;
   justify-content: center;
-  gap: 60px; /* Increase gap */
+  gap: 60px;
   font-size: 0.8em;
 }
 
 .links a {
   text-decoration: none;
   color: #45474b;
-  font-size: 1.2em; /* Increase font size */
+  font-size: 1.2em;
   transition: color 0.3s;
 }
 
@@ -88,45 +88,47 @@ p {
   display: flex;
   justify-content: center;
   gap: 40px; /* Space between icons */
-  margin: 40px 0 70px; /* Margin above social links */
+  margin: 40px 0 70px; 
+
 }
 
 .social-links a {
   text-decoration: none;
-  color: black; /* Set icon color to black */
-  font-size: 1.5em; /* Decrease icon size */
-  transition: color 0.3s;
+  color: black; 
+  font-size: 1.5em; 
+  transition: transform 0.3s ease-in-out;
 }
 
 .social-links a:hover {
   color: #9b86bd;
   text-decoration: underline;
+  transform: scale(1.15);
 }
 
 .page-content {
-  text-align: left; /* Align text to the left for this specific page */
+  text-align: left;
 }
 
 .page-content p {
-  font-size: 0.8em; /* Increase base font size */
+  font-size: 0.8em;
 }
 
 .page-content li {
   color: #545454;
-  font-size: 1em; /* Increase base font size */
-  margin: 10px; /* Increase margin */
+  font-size: 1em; 
+  margin: 10px; 
 }
 
 .divider {
-  margin: 20px auto; /* Center the line with spacing above and below */
+  margin: 20px auto;
   border: 0;
-  border-top: 1px solid #ccc; /* Light gray line */
-  width: 100%; /* Width of the line, adjust as needed */
+  border-top: 1px solid #ccc;
+  width: 100%;
 }
 
 .fade {
-  opacity: 0; /* Start invisible for fade-in effect */
-  animation: fadeIn 2s 0.1s forwards; /* Apply fade-in effect with delay */
+  opacity: 0;
+  animation: fadeIn 2s 0.1s forwards; 
 }
 
 /* Keyframes for fade-in effect */
