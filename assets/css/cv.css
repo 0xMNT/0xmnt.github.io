@@ -91,6 +91,20 @@ ul li {
   height: 225px; 
   border-radius: 50%;
   object-fit: cover;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInTop 1s forwards;
+}
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .fade {
