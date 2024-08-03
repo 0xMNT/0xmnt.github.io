@@ -22,6 +22,10 @@ p {
   color: #9c9c9c;
 }
 
+.justify {
+  text-align: justify;
+}
+
 .container {
   text-align: center;
   background: white;
