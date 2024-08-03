@@ -25,14 +25,14 @@ p {
 .container {
   text-align: center;
   background: white;
-  padding: 30px; 
+  padding: 30px;
   margin-top: 10vh;
-  width: 80%; 
+  width: 80%;
   max-width: 800px;
 }
 
 .round-image:hover {
-  opacity: 0.8; 
+  opacity: 0.8;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
@@ -43,7 +43,7 @@ p {
 }
 
 .round-image {
-  width: 225px; 
+  width: 225px;
   height: 225px;
   border-radius: 50%;
   object-fit: cover;
@@ -52,14 +52,14 @@ p {
 }
 
 @keyframes fadeInTop {
-    0% {
-        opacity: 0;
-        transform: translateY(-40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .links {
@@ -101,14 +101,13 @@ p {
   display: flex;
   justify-content: center;
   gap: 40px; /* Space between icons */
-  margin: 40px 0 70px; 
-
+  margin: 40px 0 70px;
 }
 
 .social-links a {
   text-decoration: none;
-  color: black; 
-  font-size: 1.5em; 
+  color: black;
+  font-size: 1.5em;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -128,8 +127,8 @@ p {
 
 .page-content li {
   color: #545454;
-  font-size: 1em; 
-  margin: 10px; 
+  font-size: 1em;
+  margin: 10px;
 }
 
 .divider {
@@ -141,7 +140,7 @@ p {
 
 .fade {
   opacity: 0;
-  animation: fadeIn 2s 0.1s forwards; 
+  animation: fadeIn 2s 0.1s forwards;
 }
 
 /* Keyframes for fade-in effect */
