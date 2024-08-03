@@ -116,7 +116,7 @@ p {
 .social-links a:hover {
   color: #9b86bd;
   text-decoration: underline;
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .page-content {
