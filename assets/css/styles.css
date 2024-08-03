@@ -67,6 +67,20 @@ p {
   justify-content: center;
   gap: 60px;
   font-size: 0.8em;
+  object-fit: cover;
+  opacity: 0;
+  animation: fadeInBot 1s forwards;
+}
+
+@keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    transform: translateY(+20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .links a {
@@ -84,6 +98,20 @@ p {
 .links-project {
   display: flex;
   justify-content: left;
+  object-fit: cover;
+  opacity: 0;
+  animation: fadeInBot 1s forwards;
+}
+
+@keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    transform: translateY(+20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .links-project a {
