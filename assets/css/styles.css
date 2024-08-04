@@ -23,7 +23,7 @@ p {
 }
 
 .arrow {
-  /* display: none; /* Hide by default */ */
+  display: none; /* Hide by default */
   bottom: 20px;
   right: 20px;
   border-radius: 50%;
