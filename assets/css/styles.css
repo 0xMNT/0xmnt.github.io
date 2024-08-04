@@ -22,6 +22,18 @@ p {
   color: #9c9c9c;
 }
 
+.arrow {
+  /* display: none; /* Hide by default */ */
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
 .justify {
   text-align: justify;
 }
@@ -206,5 +218,9 @@ p {
 
   .links a {
     font-size: 1em;
+  }
+
+  .arrow {
+    display: block; /* Show on mobile devices */
   }
 }
