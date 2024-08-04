@@ -90,8 +90,7 @@ ul li {
   margin-bottom: 30px;
 }
 
-/* Balloon Icon Styles */
-.balloon-icon {
+.arrow {
   display: none; /* Hide by default */
   bottom: 20px;
   right: 20px;
@@ -161,7 +160,7 @@ ul li {
     font-size: 1em;
   }
 
-  .balloon-icon {
+  .arrow {
     display: block; /* Show on mobile devices */
   }
 }
