@@ -4,7 +4,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items to the start (top) */
+  align-items: flex-start;
   height: 100vh;
   font-size: 1.5em;
 }
@@ -23,7 +23,7 @@ p {
 }
 
 .arrow {
-  display: none; /* Hide by default */
+  display: none;
   bottom: 20px;
   right: 20px;
   border-radius: 50%;
@@ -49,7 +49,7 @@ p {
 
 .round-image:hover {
   opacity: 0.8;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .image-container {
@@ -197,6 +197,93 @@ p {
   }
 }
 
+/* Language Burger Menu */
+.language-burger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.burger-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  padding: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.burger-icon:hover {
+  opacity: 0.7;
+}
+
+.burger-icon span {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+.language-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  min-width: 150px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+
+.language-menu.active {
+  display: block;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.language-menu a {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.language-menu a:last-child {
+  border-bottom: none;
+}
+
+.language-menu a:hover {
+  background-color: #f5f5f5;
+}
+
+.language-menu a.active {
+  background-color: #333;
+  color: white;
+}
+
 @media (max-width: 480px) {
   body {
     font-size: 1em;
@@ -221,6 +308,6 @@ p {
   }
 
   .arrow {
-    display: block; /* Show on mobile devices */
+    display: block;
   }
 }

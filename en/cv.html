@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME146Z322V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ME146Z322V');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé</title>
+    <link rel="stylesheet" href="../assets/css/cv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="alternate" hreflang="en" href="https://0xmnt.github.io/en/cv.html">
+    <link rel="alternate" hreflang="de" href="https://0xmnt.github.io/de/cv.html">
+</head>
+
+<body>
+    <!-- Language Burger Menu -->
+    <div class="language-burger">
+        <div class="burger-icon" onclick="toggleLanguageMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="language-menu" id="languageMenu">
+            <a href="../en/cv.html" class="active">🇬🇧 English</a>
+            <a href="../de/cv.html">🇩🇪 Deutsch</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleLanguageMenu() {
+            document.getElementById('languageMenu').classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.burger-icon') && !event.target.matches('.burger-icon span')) {
+                var menu = document.getElementById('languageMenu');
+                if (menu.classList.contains('active')) {
+                    menu.classList.remove('active');
+                }
+            }
+        }
+    </script>
+
+    <div class="content">
+        <div class="fade image-container">
+            <a href="index.html">
+                <img src="../assets/images/dogcoffee.jpg" alt="dog coffee" class="round-image">
+        </a>
+        </div>
+
+        <div class="container">
+            <div class="left">
+                <h1>Damian Cielenga</h1>
+                <ul>
+                    <li><strong><i class="fade fa fa-envelope"></i> Email:</strong> damian.cielenga@gmail.com</li>
+                    <li><strong> <i class="fade fab fa-linkedin"></i> LinkedIn:</strong> <a
+                            href="https://www.linkedin.com/in/damian-cielenga-a391a1300">Damian Cielenga</a>
+                    </li>
+                    <li><strong><i class="fade fab fa-xing"></i> XING:</strong> <a
+                            href="https://www.xing.com/profile/damian_cielenga/">Damian Cielenga</a>
+                    </li>
+                    <li><strong><i class="fade fab fa-github"></i> GitHub:</strong> <a
+                            href="https://github.com/0xMNT">0xMNT</a></li>
+                </ul>
+
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Languages:</strong> Python, Bash</li>
+                    <li><strong>Versioning Control Tools:</strong> Git (GitLab, GitHub, BitBucket)</li>
+                    <li><strong>Operating Systems:</strong> Windows, GNU/Linux, MacOS</li>
+                    <li><strong>Cloud Platforms:</strong> AWS, OVH Cloud, Hetzner</li>
+                    <li><strong>Infrastructure as Code:</strong> Terraform</li>
+                    <li><strong>Configuration Management:</strong> Ansible, GNU Stow</li>
+                    <li><strong>Container Orchestration:</strong> Kubernetes, ArgoCD, Helm</li>
+                    <li><strong>Containerization:</strong> Docker, ContainerD, Harbor, Nexus</li>
+                    <li><strong>Virtualization:</strong> Proxmox, VMware, Virtualbox</li>
+                    <li><strong>Monitoring:</strong> Prometheus, Grafana, Elasticsearch, Kibana, CheckMK, Zabbix, Nagios</li>
+                    <li><strong>Database:</strong> PostgreSQL, MySQL, SQLite, CloudNativePG</li>
+                    <li><strong>Security & Secrets:</strong> Sealed Secrets, Keycloak</li>
+                    <li><strong>Backup & Recovery:</strong> Velero</li>
+                    <li><strong>Collaboration Tools:</strong> Confluence, Jira, Wrike, Miro</li>
+                    <li><strong>Methodologies:</strong> Scrum, Kanban, GitOps</li>
+                </ul>
+
+                <h2>Development Environment</h2>
+                <ul>
+                    <li><strong>Editor:</strong> Neovim (LazyVim, LazyGit, LazyDocker, Mason, Tokyonight), VSCode </li>
+                    <li><strong>Terminal:</strong> WezTerm, Alacritty</li>
+                    <li><strong>Multiplexer:</strong> Tmux</li>
+                    <li><strong>Notetaking:</strong> Obsidian (Markdown Editor)</li>
+                </ul>
+
+                <h2>Additional Information</h2>
+                <p><strong>Languages:</strong> German (native), English (intermediate)</p>
+
+            </div>
+
+            <div class="right">
+                <h2>Summary</h2>
+                <p class="justify">Proactive and team-oriented Infrastructure Specialist from Germany with 4+ years of experience in cloud-native infrastructure
+                    and DevOps practices. Currently specializing in Kubernetes orchestration and GitOps workflows for enterprise-scale deployments in OVH Cloud.
+                    Strong focus on infrastructure automation, declarative configuration management, and implementing robust backup and disaster recovery strategies.
+                    Experienced in designing scalable database infrastructure, implementing policy-driven security controls, and building comprehensive monitoring solutions.
+                    Solution-oriented problem solver with a fast learning ability and strong grasp of complex technical concepts. Passionate about knowledge sharing
+                    with colleagues and collaborative development through pair programming sessions.</p>
+
+                <h2>Professional Experience</h2>
+                <h3>Infrastructure Specialist</h3>
+                <p><strong>IHK-GFI</strong> — October 2024 – Present</p>
+                <ul>
+                    <li>Migrate critical DevOps toolchain (Jenkins, Bitbucket, Crowd, Jira) from on-premises to Kubernetes clusters in OVH Cloud</li>
+                    <li>Manage container registry (Harbor) and artifact repository (Nexus) for centralized image and package management</li>
+                    <li>Implement backup solution using Velero with S3 storage in OVH Cloud</li>
+                    <li>Deploy and maintain monitoring stack using Elasticsearch, Grafana, Kibana, and Prometheus</li>
+                    <li>Automate Kubernetes cluster and node configuration using Ansible</li>
+                    <li>Manage GitOps workflows with ArgoCD and Helm charts for continuous deployment</li>
+                    <li>Maintain and update DevOps toolchain across all environments</li>
+                    <li>Implement secret management using Sealed Secrets</li>
+                    <li>Design and deploy PostgreSQL infrastructure with CloudNativePG across 20 Kubernetes clusters using App of Apps pattern, including point-in-time recovery, backup, and monitoring</li>
+                    <li>Configure database tooling with Keycloak integration for authentication</li>
+                    <li>Implement namespace-based access control for database team using Kyverno policies and custom kubeconfig files</li>
+                </ul>
+
+                <h3>DevOps Engineer</h3>
+                <p><strong>Sonnen GmbH</strong> — July 2022 – July 2024</p>
+                <ul>
+                    <li>Implement CI/CD pipelines using GitLab/GitHub</li>
+                    <li>Create, manage and virtualize servers and containers in Proxmox</li>
+                    <li>Automate infrastructure provisioning with Terraform on AWS, improving consistency and
+                        reliability</li>
+                    <li>Manage the update, upgrade and configuration process of over 200 servers with Ansible</li>
+                    <li>Support various teams with Confluence wiki management and other collaborative tools</li>
+                    <li>Manage Zabbix for monitoring all Linux systems in the organization</li>
+                    <li>Work effectively in a team using Scrum and Kanban methodologies</li>
+                </ul>
+
+                <h3>Junior DevOps Engineer</h3>
+                <p><strong>prodexa GmbH</strong> — January 2022 – July 2022</p>
+                <ul>
+                    <li>Focused on backend infrastructure for a Product Information Management (PIM) system</li>
+                    <li>Monitored systems using Nagios to ensure high availability and performance</li>
+                    <li>Created Groovy, Python and Bash scripts to enhance the functionality and automation of the PIM
+                        application</li>
+                    <li>Collaborated with customers to gather requirements and provide technical support</li>
+                </ul>
+
+                <h2 class="page-break-before">Education</h2>
+                <p><strong>Fachinformatik für Anwendungsentwicklung</strong></p>
+                <p>prodexa, Dortmund — August 2019 – January 2022</p>
+
+                <p><strong>Angewandte Informatik (ohne Abschluss)</strong></p>
+                <p>TU Dortmund — October 2012 – June 2019</p>
+
+                <p><strong>Allgemeine Hochschulreife</strong></p>
+                <p>Berufskolleg Witten — June 2012</p>
+
+                <h2>Projects</h2>
+                <h3>RSS Feed Checker and Telegram Notifier</h3>
+                <p class="justify">
+                    This script periodically checks an RSS feed for new entries and sends
+                    updates to a specified Telegram chat. It is designed to run as a cron job and uses asynchronous
+                    operations to efficiently handle network requests. The application runs in a Docker container on a
+                    Hetzner Cloud server and will be updated and redeployed via a CI/CD pipeline on GitHub
+                </p>
+                <p><strong>Technologies:</strong> Python, Docker, Git, Cloud</p>
+                <p><strong>Link:</strong> <a href="https://github.com/0xMNT/telegram-rss-feed-bot">GitHub</a></p>
+
+                <h3>Portfolio</h3>
+                <p class="justify">
+                    Personal portfolio website showcasing professional background, skills, and projects. Built with plain HTML and CSS,
+                    hosted on GitHub Pages with automated CI/CD deployment pipeline.
+                </p>
+                <p><strong>Technologies:</strong> HTML, CSS, GitHub Pages, CI/CD</p>
+                <p><strong>Link:</strong>
+                    <a href="https://github.com/0xMNT/0xmnt.github.io">GitHub, </a><a href="https://0xmnt.github.io">Page</a>
+                </p>
+
+
+                <h3>HomeLab</h3>
+                <p class="justify">
+                    Personal homelab built with Proxmox for deploying and managing various
+                    tools such as Pi-hole, Zabbix, and Nextcloud to enhance technical skills in
+                    server management and network security.
+                </p>
+                <p><strong>Technologies:</strong> Proxmox, Zabbix, Nextcloud, IaC, Ansible</p>
+
+                <h3>Pygame Clock</h3>
+                <p class="justify">
+                    A simple and fancy clock application built in Python with the Pygame library. This project showcases the current time with a digital display and animated elements, offering a practical example of using Pygame for graphical applications.
+                </p>
+                <p><strong>Technologies:</strong> Python, Pygame, Git</p>
+                <p><strong>Link:</strong> <a href="https://github.com/0xMNT/pygame-clock">GitHub</a></p>
+
+                <a href="#top" class="fade arrow">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
