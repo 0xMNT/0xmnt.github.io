@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME146Z322V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ME146Z322V');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekte</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="alternate" hreflang="en" href="https://0xmnt.github.io/en/projects.html">
+    <link rel="alternate" hreflang="de" href="https://0xmnt.github.io/de/projects.html">
+</head>
+
+<body>
+    <!-- Language Burger Menu -->
+    <div class="language-burger">
+        <div class="burger-icon" onclick="toggleLanguageMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="language-menu" id="languageMenu">
+            <a href="../en/projects.html">🇬🇧 English</a>
+            <a href="projects.html" class="active">🇩🇪 Deutsch</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleLanguageMenu() {
+            document.getElementById('languageMenu').classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.burger-icon') && !event.target.matches('.burger-icon span')) {
+                var menu = document.getElementById('languageMenu');
+                if (menu.classList.contains('active')) {
+                    menu.classList.remove('active');
+                }
+            }
+        }
+    </script>
+
+    <div class="container">
+        <div class="fade image-container">
+            <a href="index.html">
+                <img src="../assets/images/dogcoffee.jpg" alt="dog coffee" class="round-image">
+            </a>
+        </div>
+
+        <p> Projekte </p>
+        <hr class="divider"> <!-- Horizontal line -->
+
+        <div class="page-content">
+            <div class="links-project">
+                <a href="https://www.github.com/0xmnt/telegram-rss-feed-bot">
+                    <h2>RSS-Feed-Checker und Telegram-Notifier</h2>
+                </a>
+            </div>
+            <p class="justify">
+                Dieses Skript überprüft periodisch einen RSS-Feed auf neue Einträge und sendet Updates an einen
+                angegebenen Telegram-Chat. Es ist als Cron-Job konzipiert und nutzt asynchrone Operationen für die
+                effiziente Verarbeitung von Netzwerkanfragen. Die Anwendung läuft in einem Docker-Container auf einem
+                Hetzner-Cloud-Server und wird über eine CI/CD-Pipeline auf GitHub aktualisiert und neu bereitgestellt
+            </p>
+
+            <div class="links-project">
+                <a href="https://www.github.com/0xmnt/0xmnt.github.io">
+                    <h2>Portfolio</h2>
+                </a>
+            </div>
+            <p class="justify">
+                Persönliche Portfolio-Website zur Darstellung von beruflichem Hintergrund, Fähigkeiten und Projekten.
+                Erstellt mit reinem HTML und CSS, gehostet auf GitHub Pages mit automatisierter CI/CD-Deployment-Pipeline.
+            </p>
+
+            <div class="links-project">
+                <a href="https://www.github.com/0xmnt/pygame-clock">
+                    <h2>Pygame Clock</h2>
+                </a>
+            </div>
+            <p class="justify">
+                Eine einfache und ansprechende Uhren-Anwendung, entwickelt in Python mit der Pygame-Bibliothek. Dieses
+                Projekt zeigt die aktuelle Uhrzeit mit digitalem Display und animierten Elementen und bietet ein praktisches
+                Beispiel für die Verwendung von Pygame für grafische Anwendungen.
+            </p>
+
+            <div class="links-project">
+                <h2>HomeLab</h2>
+            </div>
+            <p class="justify">
+                Persönliches Homelab mit Proxmox für das Deployment und Management verschiedener Tools wie Pi-hole, Zabbix
+                und Nextcloud zur Vertiefung technischer Fähigkeiten im Bereich Server-Management und Netzwerksicherheit.
+            </p>
+        </div>
+
+            <a href="#top" class="fade arrow">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+    </div>
+</body>
+
+</html>

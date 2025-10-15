@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME146Z322V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ME146Z322V');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Damian Cielenga</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="alternate" hreflang="en" href="https://0xmnt.github.io/en/index.html">
+    <link rel="alternate" hreflang="de" href="https://0xmnt.github.io/de/index.html">
+</head>
+
+<body>
+    <!-- Language Burger Menu -->
+    <div class="language-burger">
+        <div class="burger-icon" onclick="toggleLanguageMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="language-menu" id="languageMenu">
+            <a href="../en/index.html" class="active">🇬🇧 English</a>
+            <a href="../de/index.html">🇩🇪 Deutsch</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleLanguageMenu() {
+            document.getElementById('languageMenu').classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.burger-icon') && !event.target.matches('.burger-icon span')) {
+                var menu = document.getElementById('languageMenu');
+                if (menu.classList.contains('active')) {
+                    menu.classList.remove('active');
+                }
+            }
+        }
+    </script>
+
+    <div class="container">
+        <div class="fade image-container">
+            <a href="index.html">
+                <img src="../assets/images/dogcoffee.jpg" alt="dog coffee" class="round-image">
+            </a>
+        </div>
+
+        <h1>Damian Cielenga</h1>
+        <p class="fade">Infrastructure Specialist, Linux Enthusiast, <br> Coffee brewer</p>
+
+        <div class="fade social-links">
+            <a href="https://github.com/0xMNT" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/damian-cielenga-a391a1300" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.xing.com/profile/damian_cielenga" target="_blank" title="Xing">
+                <i class="fab fa-xing"></i>
+            </a>
+        </div>
+
+        <div class="links">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="cv.html">Résumé</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
