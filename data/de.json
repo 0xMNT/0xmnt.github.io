@@ -5,6 +5,9 @@
   },
   "header": {
     "name": "Damian Cielenga",
+    "portfolioLabel": "Online-CV:",
+    "portfolio": "0xmnt.github.io",
+    "portfolioUrl": "https://0xmnt.github.io",
     "locationLabel": "Standort:",
     "location": "***REMOVED***",
     "phoneLabel": "Telefon:",

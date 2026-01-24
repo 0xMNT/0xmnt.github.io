@@ -219,6 +219,11 @@ ul li {
     display: none;
   }
 
+  /* Portfolio - show shortened URL */
+  .left a[href*="0xmnt.github.io"]:after {
+    content: "0xmnt.github.io";
+  }
+
   /* LinkedIn - show shortened URL */
   .left a[href*="linkedin.com"]:after {
     content: "linkedin.com/in/damian-cielenga-a391a1300";

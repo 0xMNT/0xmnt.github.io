@@ -31,6 +31,9 @@
 
         // Populate header
         document.getElementById('name').textContent = data.header.name;
+        document.getElementById('portfolio-label').textContent = data.header.portfolioLabel;
+        document.getElementById('portfolio-text').textContent = data.header.portfolio;
+        document.getElementById('portfolio-link').href = data.header.portfolioUrl;
         document.getElementById('location-label').textContent = data.header.locationLabel;
         document.getElementById('location').textContent = data.header.location;
         document.getElementById('phone-label').textContent = data.header.phoneLabel;
