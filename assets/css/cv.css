@@ -45,6 +45,12 @@ ul li {
   margin-bottom: 10px;
 }
 
+/* Bullet Points für Berufserfahrung */
+#experience-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 .container {
   display: flex;
   max-width: 1200px;
@@ -185,6 +191,10 @@ ul li {
     display: none;
   }
 
+  .language-switcher {
+    display: none;
+  }
+
   .arrow {
     display: none;
   }
@@ -192,6 +202,43 @@ ul li {
   .image-container {
     display: none;
   }
+
+  /* All links blue in print */
+  a[href] {
+    color: #0066cc !important;
+    text-decoration: none;
+  }
+
+  /* Don't show anchor links (like #top) */
+  a[href^="#"] {
+    display: none;
+  }
+
+  /* Left column - show shortened URLs for contact info */
+  .left a[href] span {
+    display: none;
+  }
+
+  /* LinkedIn - show shortened URL */
+  .left a[href*="linkedin.com"]:after {
+    content: "linkedin.com/in/damian-cielenga-a391a1300";
+  }
+
+  /* GitHub - show shortened URL */
+  .left a[href*="github.com"]:after {
+    content: "github.com/0xMNT";
+  }
+
+  /* XING - show shortened URL */
+  .left a[href*="xing.com"]:after {
+    content: "xing.com/profile/damian_cielenga";
+  }
+
+  /* Projects - hide all links */
+  .right p:has(a) {
+    display: none;
+  }
+}
 }
 
 @media (max-width: 480px) {
