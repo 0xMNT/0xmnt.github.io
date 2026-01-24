@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Lebenslauf",
+    "lang": "de"
+  },
+  "header": {
+    "name": "Damian Cielenga",
+    "locationLabel": "Standort:",
+    "location": "***REMOVED***",
+    "phoneLabel": "Telefon:",
+    "phone": "***REMOVED***",
+    "emailLabel": "E-Mail:",
+    "email": "***REMOVED***",
+    "linkedinLabel": "LinkedIn:",
+    "linkedin": "Damian Cielenga",
+    "linkedinUrl": "https://www.linkedin.com/in/damian-cielenga-a391a1300",
+    "xingLabel": "XING:",
+    "xing": "Damian Cielenga",
+    "xingUrl": "https://www.xing.com/profile/damian_cielenga/",
+    "githubLabel": "GitHub:",
+    "github": "0xMNT",
+    "githubUrl": "https://github.com/0xMNT"
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "items": [
+      {
+        "category": "Container-Orchestrierung & Service Mesh:",
+        "skills": "Kubernetes, ArgoCD, Helm, Istio"
+      },
+      {
+        "category": "Cloud & Infrastructure as Code:",
+        "skills": "AWS, OVH Cloud, Terraform, Ansible"
+      },
+      {
+        "category": "Datenbanken:",
+        "skills": "PostgreSQL, MySQL, CloudNativePG"
+      },
+      {
+        "category": "CI/CD & GitOps:",
+        "skills": "GitLab CI, GitHub Actions, ArgoCD"
+      },
+      {
+        "category": "Containerisierung & Registries:",
+        "skills": "Docker, ContainerD, Harbor, Nexus"
+      },
+      {
+        "category": "Monitoring & Observability:",
+        "skills": "Prometheus, Grafana, Elasticsearch, Kibana, Kiali"
+      },
+      {
+        "category": "Security & Policy Management:",
+        "skills": "Kyverno, Sealed Secrets, Keycloak"
+      },
+      {
+        "category": "Backup & Virtualisierung:",
+        "skills": "Velero, Proxmox, VMware"
+      },
+      {
+        "category": "Tools & Methoden:",
+        "skills": "Git, Linux, Python, Bash, GitOps, Scrum"
+      }
+    ]
+  },
+  "additionalInfo": {
+    "title": "Zusätzliche Informationen",
+    "languages": "Sprachen:",
+    "languagesList": "Deutsch (Muttersprache), Englisch (Verhandlungssicher / C1)"
+  },
+  "summary": {
+    "title": "Zusammenfassung",
+    "text": "Infrastructure Specialist mit 4 Jahren Erfahrung in Cloud-nativen Infrastrukturen und DevOps-Praktiken. Aktuell verantwortlich für die Migration und den Betrieb kritischer DevOps-Toolchains auf Kubernetes in der OVH Cloud. Schwerpunkte liegen auf Infrastructure as Code, GitOps-Workflows und der Implementierung skalierbarer Datenbank-Lösungen über mehrere Cluster hinweg. Schnelle Auffassungsgabe bei komplexen technischen Konzepten und ausgeprägte Teamorientierung durch Wissensaustausch und Pair-Programming. Hands-on-Mentalität mit Fokus auf Automatisierung, Zuverlässigkeit und pragmatische Lösungen."
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "jobs": [
+      {
+        "title": "Infrastructure Specialist",
+        "company": "IHK-GFI",
+        "location": "Dortmund",
+        "period": "Oktober 2024 – Heute",
+        "responsibilities": [
+          "Migration und Betrieb der kritischen DevOps-Toolchain von On-Premises zu Kubernetes in der OVH Cloud mit minimaler Downtime für CI/CD, Issue-Tracking und Collaboration-Tools",
+          "Design und Rollout einer hochverfügbaren PostgreSQL-Infrastruktur mit CloudNativePG über 20 Kubernetes-Cluster, inklusive automatisiertem Backup, Point-in-Time-Recovery und umfassendem Monitoring",
+          "Neugestaltung der Cluster-Architektur mit 2 dedizierten Infrastructure Nodes für Platform-Tools (Istio, ArgoCD) zur Trennung von Plattform- und Application-Workloads",
+          "Implementierung und Verwaltung eines cluster-übergreifenden Service Mesh mit Istio für fortgeschrittenes Traffic Management, Security und Observability mittels VirtualServices, Gateways, PeerAuthentication und DestinationRules",
+          "Standardisierung der Multi-Cluster-Deployments durch ArgoCD ApplicationSets (Istio) und App-of-Apps Pattern (CNPG, Monitoring) für verbesserte Wartbarkeit, Skalierbarkeit und Übersichtlichkeit über 20 Cluster hinweg",
+          "Implementierung einer cluster-übergreifenden Backup-Strategie mit Velero und S3-Storage zur Sicherstellung der Business Continuity",
+          "Wartung und Betrieb eines zentralen Monitoring- und Observability-Stacks (Prometheus, Grafana, Elasticsearch, Kibana, Kiali) für die gesamte Infrastruktur",
+          "Umsetzung von Security-Best-Practices durch Sealed Secrets für Secret-Management und Kyverno-Policies für rollenbasierte Zugriffskontrolle auf Namespace-Ebene",
+          "Verwaltung der zentralen Container-Registry und des Artifact-Repository für unternehmensweites Image- und Paketmanagement"
+        ]
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "Sonnen GmbH",
+        "location": "",
+        "period": "Juli 2022 – August 2024",
+        "responsibilities": [
+          "Entwicklung und Betrieb von CI/CD-Pipelines zur Automatisierung von Build-, Test- und Deployment-Prozessen für Entwicklungsteams",
+          "Automatisierung der Cloud-Infrastrukturbereitstellung mit Terraform auf AWS für konsistente, versionierte und reproduzierbare Umgebungen",
+          "Verwaltung und Automatisierung des Lifecycle-Managements von über 200 Linux-Servern mittels Ansible für Updates, Upgrades und Konfigurationsänderungen",
+          "Aufbau und Verwaltung einer Proxmox-Virtualisierungsplattform für Server- und Container-Workloads zur Optimierung der Ressourcennutzung",
+          "Implementierung und Betrieb eines unternehmensweiten Monitoring-Systems mit Zabbix für alle Linux-Systeme zur proaktiven Fehleridentifikation"
+        ]
+      },
+      {
+        "title": "Junior DevOps Engineer",
+        "company": "prodexa GmbH",
+        "location": "",
+        "period": "Januar 2022 – Juli 2022",
+        "responsibilities": [
+          "Betreuung und Weiterentwicklung der Backend-Infrastruktur eines Product Information Management (PIM) Systems mittels Python- und Bash-Automatisierung",
+          "Monitoring und Incident-Management der Produktivumgebung mit Nagios zur Sicherstellung hoher Verfügbarkeit",
+          "Technischer Support für Kunden bei der Integration und Konfiguration des PIM-Systems"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Ausbildung",
+    "items": [
+      {
+        "degree": "Fachinformatik für Anwendungsentwicklung",
+        "school": "prodexa, Dortmund",
+        "period": "August 2019 – Januar 2022"
+      },
+      {
+        "degree": "Angewandte Informatik (ohne Abschluss)",
+        "school": "TU Dortmund",
+        "period": "Oktober 2012 – Juni 2019"
+      },
+      {
+        "degree": "Allgemeine Hochschulreife",
+        "school": "Berufskolleg Witten",
+        "period": "Juni 2012"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "items": [
+      {
+        "name": "HomeLab",
+        "description": "Self-hosted Kubernetes-Cluster auf Proxmox-Basis mit vollständigem GitOps-Workflow über ArgoCD. Deployment und Verwaltung von Enterprise-Tools wie Istio (Service Mesh), Harbor (Container Registry), CloudNativePG (Datenbank-Operator), Kyverno (Policy Engine), Sealed Secrets, Prometheus/Grafana/Kiali (Monitoring), Elastic/Kibana (Logging) und Traefik (Ingress Controller). Kontinuierliche Erprobung neuer Cloud-native Technologien und Konzepte in einer produktionsnahen Umgebung.",
+        "link": "https://github.com/0xMNT/homelab",
+        "linkText": "GitHub"
+      },
+      {
+        "name": "RSS-Feed-Checker und Telegram-Notifier",
+        "description": "Containerisierte Python-Anwendung zur automatisierten Überwachung von RSS-Feeds mit Telegram-Benachrichtigung. Deployment auf Hetzner Cloud mit GitHub Actions CI/CD-Pipeline für automatisierte Updates.",
+        "link": "https://github.com/0xMNT/telegram-rss-feed-bot",
+        "linkText": "GitHub"
+      },
+      {
+        "name": "Portfolio",
+        "description": "Portfolio-Website mit automatisiertem Deployment auf GitHub Pages über CI/CD-Pipeline.",
+        "link": "https://github.com/0xMNT/0xmnt.github.io",
+        "linkText": "GitHub",
+        "link2": "https://0xmnt.github.io",
+        "linkText2": "Page"
+      }
+    ]
+  }
+}

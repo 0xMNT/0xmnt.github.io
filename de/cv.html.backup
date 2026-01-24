@@ -29,34 +29,12 @@
 </head>
 
 <body>
-    <!-- Language Burger Menu -->
-    <div class="language-burger">
-        <div class="burger-icon" onclick="toggleLanguageMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="language-menu" id="languageMenu">
-            <a href="../en/cv.html">🇬🇧 English</a>
-            <a href="cv.html" class="active">🇩🇪 Deutsch</a>
-        </div>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <a href="../en/cv.html">EN</a>
+        <span class="separator">/</span>
+        <a href="cv.html" class="active">DE</a>
     </div>
-
-    <script>
-        function toggleLanguageMenu() {
-            document.getElementById('languageMenu').classList.toggle('active');
-        }
-
-        // Close menu when clicking outside
-        window.onclick = function(event) {
-            if (!event.target.matches('.burger-icon') && !event.target.matches('.burger-icon span')) {
-                var menu = document.getElementById('languageMenu');
-                if (menu.classList.contains('active')) {
-                    menu.classList.remove('active');
-                }
-            }
-        }
-    </script>
 
     <div class="content">
         <div class="fade image-container">

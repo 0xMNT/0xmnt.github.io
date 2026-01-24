@@ -29,35 +29,6 @@
 </head>
 
 <body>
-    <!-- Language Burger Menu -->
-    <div class="language-burger">
-        <div class="burger-icon" onclick="toggleLanguageMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="language-menu" id="languageMenu">
-            <a href="./index.html" class="active">🇬🇧 English</a>
-            <a href="./de/index.html">🇩🇪 Deutsch</a>
-        </div>
-    </div>
-
-    <script>
-        function toggleLanguageMenu() {
-            document.getElementById('languageMenu').classList.toggle('active');
-        }
-
-        // Close menu when clicking outside
-        window.onclick = function(event) {
-            if (!event.target.matches('.burger-icon') && !event.target.matches('.burger-icon span')) {
-                var menu = document.getElementById('languageMenu');
-                if (menu.classList.contains('active')) {
-                    menu.classList.remove('active');
-                }
-            }
-        }
-    </script>
-
     <div class="container">
         <div class="fade image-container">
             <a href="index.html">
@@ -81,9 +52,7 @@
         </div>
 
         <div class="links">
-            <a href="./en/about.html">About</a>
-            <a href="./en/projects.html">Projects</a>
-            <a href="./en/cv.html">Résumé</a>
+            <a href="./cv.html?lang=de">Lebenslauf <i class="fas fa-angle-right"></i></a>
         </div>
 
     </div>

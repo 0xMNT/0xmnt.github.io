@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Curriculum Vitae",
+    "lang": "en"
+  },
+  "header": {
+    "name": "Damian Cielenga",
+    "locationLabel": "Location:",
+    "location": "***REMOVED***",
+    "phoneLabel": "Phone:",
+    "phone": "***REMOVED***",
+    "emailLabel": "Email:",
+    "email": "***REMOVED***",
+    "linkedinLabel": "LinkedIn:",
+    "linkedin": "Damian Cielenga",
+    "linkedinUrl": "https://www.linkedin.com/in/damian-cielenga-a391a1300",
+    "xingLabel": "XING:",
+    "xing": "Damian Cielenga",
+    "xingUrl": "https://www.xing.com/profile/damian_cielenga/",
+    "githubLabel": "GitHub:",
+    "github": "0xMNT",
+    "githubUrl": "https://github.com/0xMNT"
+  },
+  "skills": {
+    "title": "Skills",
+    "items": [
+      {
+        "category": "Container Orchestration & Service Mesh:",
+        "skills": "Kubernetes, ArgoCD, Helm, Istio"
+      },
+      {
+        "category": "Cloud & Infrastructure as Code:",
+        "skills": "AWS, OVH Cloud, Terraform, Ansible"
+      },
+      {
+        "category": "Databases:",
+        "skills": "PostgreSQL, MySQL, CloudNativePG"
+      },
+      {
+        "category": "CI/CD & GitOps:",
+        "skills": "GitLab CI, GitHub Actions, ArgoCD"
+      },
+      {
+        "category": "Containerization & Registries:",
+        "skills": "Docker, ContainerD, Harbor, Nexus"
+      },
+      {
+        "category": "Monitoring & Observability:",
+        "skills": "Prometheus, Grafana, Elasticsearch, Kibana, Kiali"
+      },
+      {
+        "category": "Security & Policy Management:",
+        "skills": "Kyverno, Sealed Secrets, Keycloak"
+      },
+      {
+        "category": "Backup & Virtualization:",
+        "skills": "Velero, Proxmox, VMware"
+      },
+      {
+        "category": "Tools & Methods:",
+        "skills": "Git, Linux, Python, Bash, GitOps, Scrum"
+      }
+    ]
+  },
+  "additionalInfo": {
+    "title": "Additional Information",
+    "languages": "Languages:",
+    "languagesList": "German (Native), English (Fluent / C1)"
+  },
+  "summary": {
+    "title": "Summary",
+    "text": "Infrastructure Specialist with 4 years of experience in cloud-native infrastructure and DevOps practices. Currently responsible for migrating and operating critical DevOps toolchains on Kubernetes in OVH Cloud. Focus areas include Infrastructure as Code, GitOps workflows, and implementing scalable database solutions across multiple clusters. Quick comprehension of complex technical concepts and strong team orientation through knowledge sharing and pair programming. Hands-on mentality with focus on automation, reliability, and pragmatic solutions."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "jobs": [
+      {
+        "title": "Infrastructure Specialist",
+        "company": "IHK-GFI",
+        "location": "Dortmund",
+        "period": "October 2024 – Present",
+        "responsibilities": [
+          "Migration and operation of critical DevOps toolchain from on-premises to Kubernetes in OVH Cloud with minimal downtime for CI/CD, issue tracking, and collaboration tools",
+          "Design and rollout of highly available PostgreSQL infrastructure with CloudNativePG across 20 Kubernetes clusters, including automated backup, point-in-time recovery, and comprehensive monitoring",
+          "Redesign of cluster architecture with 2 dedicated infrastructure nodes for platform tools (Istio, ArgoCD) to separate platform and application workloads",
+          "Implementation and management of cluster-wide service mesh with Istio for advanced traffic management, security, and observability using VirtualServices, Gateways, PeerAuthentication, and DestinationRules",
+          "Standardization of multi-cluster deployments through ArgoCD ApplicationSets (Istio) and App-of-Apps pattern (CNPG, Monitoring) for improved maintainability, scalability, and clarity across 20 clusters",
+          "Implementation of cluster-wide backup strategy with Velero and S3 storage to ensure business continuity",
+          "Maintenance and operation of central monitoring and observability stack (Prometheus, Grafana, Elasticsearch, Kibana, Kiali) for entire infrastructure",
+          "Implementation of security best practices through Sealed Secrets for secret management and Kyverno policies for role-based access control at namespace level",
+          "Management of central container registry and artifact repository for enterprise-wide image and package management"
+        ]
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "Sonnen GmbH",
+        "location": "",
+        "period": "July 2022 – August 2024",
+        "responsibilities": [
+          "Development and operation of CI/CD pipelines for automating build, test, and deployment processes for development teams",
+          "Automation of cloud infrastructure provisioning with Terraform on AWS for consistent, versioned, and reproducible environments",
+          "Management and automation of lifecycle management for over 200 Linux servers using Ansible for updates, upgrades, and configuration changes",
+          "Setup and management of Proxmox virtualization platform for server and container workloads to optimize resource utilization",
+          "Implementation and operation of enterprise-wide monitoring system with Zabbix for all Linux systems for proactive error identification"
+        ]
+      },
+      {
+        "title": "Junior DevOps Engineer",
+        "company": "prodexa GmbH",
+        "location": "",
+        "period": "January 2022 – July 2022",
+        "responsibilities": [
+          "Support and development of backend infrastructure for a Product Information Management (PIM) system using Python and Bash automation",
+          "Monitoring and incident management of production environment with Nagios to ensure high availability",
+          "Technical support for customers with integration and configuration of the PIM system"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "IT Specialist for Application Development",
+        "school": "prodexa, Dortmund",
+        "period": "August 2019 – January 2022"
+      },
+      {
+        "degree": "Applied Computer Science (incomplete)",
+        "school": "TU Dortmund",
+        "period": "October 2012 – June 2019"
+      },
+      {
+        "degree": "General University Entrance Qualification",
+        "school": "Berufskolleg Witten",
+        "period": "June 2012"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "HomeLab",
+        "description": "Self-hosted Kubernetes cluster on Proxmox with complete GitOps workflow via ArgoCD. Deployment and management of enterprise tools including Istio (Service Mesh), Harbor (Container Registry), CloudNativePG (Database Operator), Kyverno (Policy Engine), Sealed Secrets, Prometheus/Grafana/Kiali (Monitoring), Elastic/Kibana (Logging), and Traefik (Ingress Controller). Continuous exploration of new cloud-native technologies and concepts in a production-like environment.",
+        "link": "https://github.com/0xMNT/homelab",
+        "linkText": "GitHub"
+      },
+      {
+        "name": "RSS Feed Checker and Telegram Notifier",
+        "description": "Containerized Python application for automated RSS feed monitoring with Telegram notifications. Deployed on Hetzner Cloud with GitHub Actions CI/CD pipeline for automated updates.",
+        "link": "https://github.com/0xMNT/telegram-rss-feed-bot",
+        "linkText": "GitHub"
+      },
+      {
+        "name": "Portfolio",
+        "description": "Portfolio website with automated deployment on GitHub Pages via CI/CD pipeline.",
+        "link": "https://github.com/0xMNT/0xmnt.github.io",
+        "linkText": "GitHub",
+        "link2": "https://0xmnt.github.io",
+        "linkText2": "Page"
+      }
+    ]
+  }
+}
