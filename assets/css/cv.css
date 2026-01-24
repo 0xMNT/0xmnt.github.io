@@ -227,6 +227,30 @@ ul li {
   color: white;
 }
 
+/* Print-only elements (hidden on screen, visible when printing) */
+.print-only {
+  display: none;
+}
+
+@media print {
+  .print-only {
+    display: list-item;
+  }
+
+  /* Hide language menu, image and other interactive elements when printing */
+  .language-burger {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .image-container {
+    display: none;
+  }
+}
+
 @media (max-width: 480px) {
   body {
     font-size: 1em;
