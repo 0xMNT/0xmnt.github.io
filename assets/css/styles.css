@@ -41,15 +41,27 @@ p {
 }
 
 .arrow {
-  display: none;
-  bottom: 20px;
-  right: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
   border-radius: 50%;
-  padding: 10px;
-  font-size: 2rem;
+  padding: 15px;
+  font-size: 1.5rem;
   text-align: center;
   text-decoration: none;
-  color: #333;
+  color: white;
+  background-color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow.visible {
+  display: flex;
 }
 
 .justify {
@@ -180,7 +192,7 @@ p {
 .social-links a {
   text-decoration: none;
   color: black;
-  font-size: 1.5em;
+  font-size: 1em;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -228,7 +240,7 @@ p {
 
 /* Language Switcher */
 .language-switcher {
-  position: fixed;
+  position: absolute;
   top: 30px;
   right: 30px;
   z-index: 1000;
@@ -292,7 +304,7 @@ p {
   }
 
   .social-links a {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 
   .links a {

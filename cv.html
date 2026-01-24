@@ -86,7 +86,7 @@
                     <!-- Projects will be loaded here -->
                 </div>
 
-                <a href="#top" class="fade arrow">
+                <a href="#top" class="arrow">
                     <i class="fa-solid fa-arrow-up"></i>
                 </a>
 
@@ -96,6 +96,20 @@
 
     <!-- Load CV data and components -->
     <script src="./assets/js/cv-loader.js"></script>
+
+    <!-- Show arrow after 30% scroll -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const arrow = document.querySelector('.arrow');
+            const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+
+            if (scrollPercent > 30) {
+                arrow.classList.add('visible');
+            } else {
+                arrow.classList.remove('visible');
+            }
+        });
+    </script>
 </body>
 
 </html>
