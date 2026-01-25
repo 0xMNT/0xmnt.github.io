@@ -44,8 +44,12 @@
         "skills": "GitLab CI, GitHub Actions, ArgoCD"
       },
       {
+        "category": "DevOps Toolchain:",
+        "skills": "Jenkins, Tekton, Bitbucket, Harbor, SonarQube, Crowd"
+      },
+      {
         "category": "Containerization & Registries:",
-        "skills": "Docker, ContainerD, Harbor, Nexus"
+        "skills": "Docker, ContainerD, Nexus"
       },
       {
         "category": "Monitoring & Observability:",
@@ -72,7 +76,7 @@
   },
   "summary": {
     "title": "Summary",
-    "text": "Infrastructure Specialist with 4 years of experience in cloud-native infrastructure and DevOps practices. Currently responsible for migrating and operating critical DevOps toolchains on Kubernetes in OVH Cloud. Focus areas: Infrastructure as Code, GitOps workflows, and scalable database solutions across multiple clusters. Hands-on mentality with focus on automation and pragmatic solutions."
+    "text": "Platform Engineer with 4 years of experience in cloud-native infrastructure and DevOps practices. Currently working as Infrastructure Specialist responsible for migrating and operating critical DevOps toolchains on Kubernetes in OVH Cloud. Focus areas: Infrastructure as Code, GitOps workflows, and scalable database solutions across multiple clusters. Hands-on mentality with focus on automation and pragmatic solutions. Passion for cloud-native technologies and open-source ecosystems."
   },
   "experience": {
     "title": "Professional Experience",
@@ -95,7 +99,7 @@
         "title": "DevOps Engineer",
         "company": "Sonnen GmbH",
         "location": "",
-        "period": "July 2022 – August 2024",
+        "period": "July 2022 – September 2024",
         "responsibilities": [
           "Development and operation of CI/CD pipelines for automating build, test, and deployment processes for development teams",
           "Automation of cloud infrastructure provisioning with Terraform on AWS for consistent, versioned, and reproducible environments",

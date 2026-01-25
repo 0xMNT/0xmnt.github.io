@@ -44,8 +44,12 @@
         "skills": "GitLab CI, GitHub Actions, ArgoCD"
       },
       {
+        "category": "DevOps-Toolchain:",
+        "skills": "Jenkins, Tekton, Bitbucket, Harbor, SonarQube, Crowd"
+      },
+      {
         "category": "Containerisierung & Registries:",
-        "skills": "Docker, ContainerD, Harbor, Nexus"
+        "skills": "Docker, ContainerD, Nexus"
       },
       {
         "category": "Monitoring & Observability:",
@@ -72,7 +76,7 @@
   },
   "summary": {
     "title": "Zusammenfassung",
-    "text": "Infrastructure Specialist mit 4 Jahren Erfahrung in Cloud-nativen Infrastrukturen und DevOps-Praktiken. Aktuell verantwortlich für Migration und Betrieb kritischer DevOps-Toolchains auf Kubernetes in der OVH Cloud. Schwerpunkte: Infrastructure as Code, GitOps-Workflows und skalierbare Datenbank-Lösungen über mehrere Cluster. Hands-on-Mentalität mit Fokus auf Automatisierung und pragmatische Lösungen."
+    "text": "Platform Engineer mit 4 Jahren Erfahrung in Cloud-nativen Infrastrukturen und DevOps-Praktiken. Aktuell als Infrastructure Specialist verantwortlich für Migration und Betrieb kritischer DevOps-Toolchains auf Kubernetes in der OVH Cloud. Schwerpunkte: Infrastructure as Code, GitOps-Workflows und skalierbare Datenbank-Lösungen über mehrere Cluster. Hands-on-Mentalität mit Fokus auf Automatisierung und pragmatische Lösungen. Begeisterung für cloud-native Technologien und Open-Source-Ökosysteme."
   },
   "experience": {
     "title": "Berufserfahrung",
@@ -95,7 +99,7 @@
         "title": "DevOps Engineer",
         "company": "Sonnen GmbH",
         "location": "",
-        "period": "Juli 2022 – August 2024",
+        "period": "Juli 2022 – September 2024",
         "responsibilities": [
           "Entwicklung und Betrieb von CI/CD-Pipelines zur Automatisierung von Build-, Test- und Deployment-Prozessen für Entwicklungsteams",
           "Automatisierung der Cloud-Infrastrukturbereitstellung mit Terraform auf AWS für konsistente, versionierte und reproduzierbare Umgebungen",
