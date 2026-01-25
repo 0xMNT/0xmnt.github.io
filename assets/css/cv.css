@@ -289,19 +289,19 @@ ul li {
     content: "0xmnt.github.io";
   }
 
-  /* LinkedIn - show shortened URL */
+  /* LinkedIn - show only name */
   .left a[href*="linkedin.com"]:after {
-    content: "linkedin.com/in/damian-cielenga-a391a1300";
+    content: "Damian Cielenga";
   }
 
-  /* GitHub - show shortened URL */
+  /* GitHub - show username */
   .left a[href*="github.com"]:after {
-    content: "github.com/0xMNT";
+    content: "0xMNT";
   }
 
-  /* XING - show shortened URL */
+  /* XING - show only name */
   .left a[href*="xing.com"]:after {
-    content: "xing.com/profile/damian_cielenga";
+    content: "Damian Cielenga";
   }
 
   /* Projects - hide all links */

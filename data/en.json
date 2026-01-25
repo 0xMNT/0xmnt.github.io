@@ -72,7 +72,7 @@
   },
   "summary": {
     "title": "Summary",
-    "text": "Infrastructure Specialist with 4 years of experience in cloud-native infrastructure and DevOps practices. Currently responsible for migrating and operating critical DevOps toolchains on Kubernetes in OVH Cloud. Focus areas include Infrastructure as Code, GitOps workflows, and implementing scalable database solutions across multiple clusters. Quick comprehension of complex technical concepts and strong team orientation through knowledge sharing and pair programming. Hands-on mentality with focus on automation, reliability, and pragmatic solutions."
+    "text": "Infrastructure Specialist with 4 years of experience in cloud-native infrastructure and DevOps practices. Currently responsible for migrating and operating critical DevOps toolchains on Kubernetes in OVH Cloud. Focus areas: Infrastructure as Code, GitOps workflows, and scalable database solutions across multiple clusters. Hands-on mentality with focus on automation and pragmatic solutions."
   },
   "experience": {
     "title": "Professional Experience",
@@ -84,14 +84,11 @@
         "period": "October 2024 – Present",
         "responsibilities": [
           "Migration and operation of critical DevOps toolchain from on-premises to Kubernetes in OVH Cloud with minimal downtime for CI/CD, issue tracking, and collaboration tools",
-          "Design and rollout of highly available PostgreSQL infrastructure with CloudNativePG across 20 Kubernetes clusters, including automated backup, point-in-time recovery, and comprehensive monitoring",
-          "Redesign of cluster architecture with 2 dedicated infrastructure nodes for platform tools (Istio, ArgoCD) to separate platform and application workloads",
+          "Design and rollout of highly available PostgreSQL infrastructure with CloudNativePG across 20 Kubernetes clusters with automated backup, point-in-time recovery, and cluster-wide backup strategy via Velero and S3 storage",
           "Implementation and management of cluster-wide service mesh with Istio for advanced traffic management, security, and observability using VirtualServices, Gateways, PeerAuthentication, and DestinationRules",
-          "Standardization of multi-cluster deployments through ArgoCD ApplicationSets (Istio) and App-of-Apps pattern (CNPG, Monitoring) for improved maintainability, scalability, and clarity across 20 clusters",
-          "Implementation of cluster-wide backup strategy with Velero and S3 storage to ensure business continuity",
-          "Maintenance and operation of central monitoring and observability stack (Prometheus, Grafana, Elasticsearch, Kibana, Kiali) for entire infrastructure",
-          "Implementation of security best practices through Sealed Secrets for secret management and Kyverno policies for role-based access control at namespace level",
-          "Management of central container registry and artifact repository for enterprise-wide image and package management"
+          "Standardization of multi-cluster deployments through ArgoCD ApplicationSets and App-of-Apps pattern for improved maintainability and scalability across 20 clusters",
+          "Maintenance and operation of central monitoring and observability stack with Prometheus, Grafana, Elasticsearch, Kibana, and Kiali for entire infrastructure",
+          "Implementation of security best practices through Sealed Secrets, Kyverno policies, and management of central container registry for enterprise-wide image and package management"
         ]
       },
       {
@@ -113,9 +110,7 @@
         "location": "",
         "period": "January 2022 – July 2022",
         "responsibilities": [
-          "Support and development of backend infrastructure for a Product Information Management (PIM) system using Python and Bash automation",
-          "Monitoring and incident management of production environment with Nagios to ensure high availability",
-          "Technical support for customers with integration and configuration of the PIM system"
+          "Support of backend infrastructure for PIM system with Python/Bash automation, Nagios monitoring, and technical customer support"
         ]
       }
     ]
@@ -145,23 +140,15 @@
     "items": [
       {
         "name": "HomeLab",
-        "description": "Self-hosted Kubernetes cluster on Proxmox with complete GitOps workflow via ArgoCD. Deployment and management of enterprise tools including Istio Service Mesh, Harbor Container Registry, CloudNativePG Database Operator, Kyverno Policy Engine, Sealed Secrets, Prometheus/Grafana/Kiali Monitoring, Elastic/Kibana Logging, and Traefik Ingress Controller. Continuous exploration of new cloud-native technologies and concepts in a production-like environment.",
+        "description": "Self-hosted Kubernetes cluster on Proxmox with GitOps via ArgoCD. Enterprise tools: Istio, Harbor, CloudNativePG, Kyverno, Prometheus/Grafana, Elastic/Kibana, Traefik.",
         "link": "https://github.com/0xMNT/homelab",
         "linkText": "GitHub"
       },
       {
         "name": "RSS Feed Checker and Telegram Notifier",
-        "description": "Containerized Python application for automated RSS feed monitoring with Telegram notifications. Deployed on Hetzner Cloud with GitHub Actions CI/CD pipeline for automated updates.",
+        "description": "Containerized Python application for RSS monitoring with Telegram notifications. Deployed on Hetzner Cloud.",
         "link": "https://github.com/0xMNT/telegram-rss-feed-bot",
         "linkText": "GitHub"
-      },
-      {
-        "name": "Portfolio",
-        "description": "Portfolio website with automated deployment on GitHub Pages via CI/CD pipeline.",
-        "link": "https://github.com/0xMNT/0xmnt.github.io",
-        "linkText": "GitHub",
-        "link2": "https://0xmnt.github.io",
-        "linkText2": "Page"
       }
     ]
   }
