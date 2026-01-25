@@ -145,7 +145,7 @@
     "items": [
       {
         "name": "HomeLab",
-        "description": "Self-hosted Kubernetes cluster on Proxmox with complete GitOps workflow via ArgoCD. Deployment and management of enterprise tools including Istio (Service Mesh), Harbor (Container Registry), CloudNativePG (Database Operator), Kyverno (Policy Engine), Sealed Secrets, Prometheus/Grafana/Kiali (Monitoring), Elastic/Kibana (Logging), and Traefik (Ingress Controller). Continuous exploration of new cloud-native technologies and concepts in a production-like environment.",
+        "description": "Self-hosted Kubernetes cluster on Proxmox with complete GitOps workflow via ArgoCD. Deployment and management of enterprise tools including Istio Service Mesh, Harbor Container Registry, CloudNativePG Database Operator, Kyverno Policy Engine, Sealed Secrets, Prometheus/Grafana/Kiali Monitoring, Elastic/Kibana Logging, and Traefik Ingress Controller. Continuous exploration of new cloud-native technologies and concepts in a production-like environment.",
         "link": "https://github.com/0xMNT/homelab",
         "linkText": "GitHub"
       },

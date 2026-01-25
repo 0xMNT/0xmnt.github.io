@@ -215,7 +215,40 @@ ul li {
 
 @media print {
   .print-only {
-    display: list-item;
+    display: list-item !important;
+  }
+
+  .print-only i,
+  .print-only .fa,
+  .print-only .fab {
+    display: inline !important;
+    opacity: 1 !important;
+  }
+
+  .fade {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+
+  /* Force two-column layout for print */
+  .container {
+    display: flex !important;
+    flex-direction: row !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .left {
+    flex: 1 !important;
+    border-right: 1px solid #ccc !important;
+    width: auto !important;
+  }
+
+  .right {
+    flex: 2 !important;
+    width: auto !important;
   }
 
   /* Hide language menu, image and other interactive elements when printing */

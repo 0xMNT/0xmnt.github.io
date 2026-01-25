@@ -8,7 +8,7 @@
     "portfolioLabel": "Online-CV:",
     "portfolio": "0xmnt.github.io",
     "portfolioUrl": "https://0xmnt.github.io",
-    "locationLabel": "Standort:",
+    "locationLabel": "Wohnort:",
     "location": "***REMOVED***",
     "phoneLabel": "Telefon:",
     "phone": "***REMOVED***",
@@ -145,7 +145,7 @@
     "items": [
       {
         "name": "HomeLab",
-        "description": "Self-hosted Kubernetes-Cluster auf Proxmox-Basis mit vollständigem GitOps-Workflow über ArgoCD. Deployment und Verwaltung von Enterprise-Tools wie Istio (Service Mesh), Harbor (Container Registry), CloudNativePG (Datenbank-Operator), Kyverno (Policy Engine), Sealed Secrets, Prometheus/Grafana/Kiali (Monitoring), Elastic/Kibana (Logging) und Traefik (Ingress Controller). Kontinuierliche Erprobung neuer Cloud-native Technologien und Konzepte in einer produktionsnahen Umgebung.",
+        "description": "Self-hosted Kubernetes-Cluster auf Proxmox-Basis mit vollständigem GitOps-Workflow über ArgoCD. Deployment und Verwaltung von Enterprise-Tools wie Istio Service Mesh, Harbor Container Registry, CloudNativePG Datenbank-Operator, Kyverno Policy Engine, Sealed Secrets, Prometheus/Grafana/Kiali Monitoring, Elastic/Kibana Logging und Traefik Ingress Controller. Kontinuierliche Erprobung neuer Cloud-native Technologien und Konzepte in einer produktionsnahen Umgebung.",
         "link": "https://github.com/0xMNT/homelab",
         "linkText": "GitHub"
       },
