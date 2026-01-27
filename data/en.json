@@ -41,7 +41,7 @@
       },
       {
         "category": "CI/CD & GitOps:",
-        "skills": "GitLab CI, GitHub Actions, ArgoCD"
+        "skills": "GitLab CI, GitHub Actions, ArgoCD, Kustomize"
       },
       {
         "category": "DevOps Toolchain:",
