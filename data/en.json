@@ -101,18 +101,18 @@
         "location": "",
         "period": "July 2022 – September 2024",
         "responsibilities": [
-          "Development and operation of CI/CD pipelines for automating build, test, and deployment processes for development teams",
-          "Automation of cloud infrastructure provisioning with Terraform on AWS for consistent, versioned, and reproducible environments",
-          "Management and automation of lifecycle management for over 200 Linux servers using Ansible for updates, upgrades, and configuration changes",
-          "Setup and management of Proxmox virtualization platform for server and container workloads to optimize resource utilization",
-          "Implementation and operation of enterprise-wide monitoring system with Zabbix for all Linux systems for proactive error identification"
+          "Building Kubernetes infrastructure in AWS and migration of initial applications using GitOps workflows with ArgoCD (Platform Team from 2023)",
+          "Development and operation of CI/CD pipelines for automating build, test, and deployment processes",
+          "Automation of server updates, upgrades, and configuration changes for over 200 Linux servers using Ansible",
+          "Management and lifecycle operations of virtual machines on Proxmox platform for various workloads",
+          "Operation and maintenance of legacy infrastructure including monitoring with Zabbix"
         ]
       },
       {
         "title": "Junior DevOps Engineer",
         "company": "prodexa GmbH",
         "location": "",
-        "period": "January 2022 – July 2022",
+        "period": "January 2022 – June 2022",
         "responsibilities": [
           "Support of backend infrastructure for PIM system with Python/Bash automation, Nagios monitoring, and technical customer support"
         ]
