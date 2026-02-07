@@ -35,11 +35,22 @@
         document.getElementById('portfolio-text').textContent = data.header.portfolio;
         document.getElementById('portfolio-link').href = data.header.portfolioUrl;
         document.getElementById('location-label').textContent = data.header.locationLabel;
-        document.getElementById('location').textContent = data.header.location;
         document.getElementById('phone-label').textContent = data.header.phoneLabel;
-        document.getElementById('phone').textContent = data.header.phone;
         document.getElementById('email-label').textContent = data.header.emailLabel;
-        document.getElementById('email').textContent = data.header.email;
+
+        // Try to load private data (email, phone, location) from local file
+        try {
+            const privateResponse = await fetch(`${basePath}/data/private.json`);
+            if (privateResponse.ok) {
+                const privateData = await privateResponse.json();
+                document.getElementById('location').textContent = privateData.location || '';
+                document.getElementById('phone').textContent = privateData.phone || '';
+                document.getElementById('email').textContent = privateData.email || '';
+            }
+        } catch (error) {
+            // If private.json doesn't exist, leave fields empty (print-only fields won't show)
+            console.log('No private.json found - sensitive contact info will remain hidden');
+        }
         document.getElementById('linkedin-label').textContent = data.header.linkedinLabel;
         document.getElementById('linkedin-text').textContent = data.header.linkedin;
         document.getElementById('linkedin-link').href = data.header.linkedinUrl;
