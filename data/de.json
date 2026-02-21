@@ -76,7 +76,7 @@
   },
   "summary": {
     "title": "Zusammenfassung",
-    "text": "Platform Engineer mit 4 Jahren Erfahrung in Cloud-nativen Infrastrukturen und DevOps-Praktiken. Aktuell als Infrastructure Specialist verantwortlich für Migration und Betrieb kritischer DevOps-Toolchains auf Kubernetes in der OVH Cloud. Schwerpunkte: Infrastructure as Code, GitOps-Workflows und skalierbare Datenbank-Lösungen über mehrere Cluster. Hands-on-Mentalität mit Fokus auf Automatisierung und pragmatische Lösungen. Begeisterung für cloud-native Technologien und Open-Source-Ökosysteme."
+    "text": "Platform Engineer mit über 4 Jahren Erfahrung in Cloud-nativen Infrastrukturen und DevOps-Praktiken. Aktuell als Infrastructure Specialist verantwortlich für Migration und Betrieb kritischer DevOps-Toolchains auf Kubernetes in der OVH Cloud. Schwerpunkte: Infrastructure as Code, GitOps-Workflows und skalierbare Datenbank-Lösungen über mehrere Cluster. Hands-on-Mentalität mit Fokus auf Automatisierung und pragmatische Lösungen. Begeisterung für cloud-native Technologien und Open-Source-Ökosysteme."
   },
   "experience": {
     "title": "Berufserfahrung",
@@ -130,7 +130,8 @@
       {
         "degree": "Angewandte Informatik (ohne Abschluss)",
         "school": "TU Dortmund",
-        "period": "Oktober 2012 – Juni 2019"
+        "period": "Oktober 2012 – Juni 2019",
+        "note": "Bewusster Wechsel zur praxisorientierten Ausbildung"
       },
       {
         "degree": "Allgemeine Hochschulreife",
