@@ -95,6 +95,7 @@
         educationContainer.innerHTML = data.education.items.map(item => `
             <p><strong>${item.degree}</strong></p>
             <p>${item.school} — ${item.period}</p>
+            ${item.note ? `<p><em>${item.note}</em></p>` : ''}
         `).join('');
 
         // Populate projects
